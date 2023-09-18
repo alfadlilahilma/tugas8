@@ -1,0 +1,31 @@
+/* styles.css */
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 600px; /* Sesuaikan lebar carousel dengan kebutuhan Anda */
+    margin: 0 auto;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+}
+
+/* Styling untuk tombol previous dan next */
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#prevButton {
+    left: 10px;
+}
+
+#nextButton {
+    right: 10px;
+}
